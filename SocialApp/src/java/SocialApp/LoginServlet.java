@@ -33,11 +33,11 @@ public class LoginServlet extends HttpServlet {
     public LoginServlet()
             throws SQLException, ClassNotFoundException, IOException {  // obtain database parameters from configuration file
 
-        String dbDriver = "com.mysql.jdbc.Driver";
-        String dbUrl = "jdbc:mysql://localhost:3306/mysql";
-        String dbTable = "user_login";
-        String userName = "root";
-        String password = "";
+        String dbDriver = "org.apache.derby.jdbc.ClientDriver";
+        String dbUrl = "jdbc:derby://localhost:1527/SocialApp";
+        String dbTable = "users";
+        String userName = "habibi";
+        String password = "habibi";
         // connect to the database and create a prepared statement
         Class.forName(dbDriver);
         conn = DriverManager.getConnection(dbUrl, userName, password);
@@ -57,7 +57,7 @@ public class LoginServlet extends HttpServlet {
         if (username == null || password == null
                 || username.length() == 0 || password.length() == 0) {  // show page with form to obtain client name
             RequestDispatcher dispatcher = getServletContext().
-                    getRequestDispatcher("/index.html");
+                    getRequestDispatcher("index.html");
             dispatcher.forward(request, response);
         } else {  // put client name into a bean
             User user = new User();
@@ -72,6 +72,9 @@ public class LoginServlet extends HttpServlet {
                     stmt.setString(2, password);
                     ResultSet rs = stmt.executeQuery();
                     userFound = rs.next();//true if there is a record
+                    if(userFound){
+                        user.setFullname(rs.getString("fullname"));
+                    }
                 }
             } catch (SQLException e) {
                 System.err.println("SQL Exception during query: " + e);

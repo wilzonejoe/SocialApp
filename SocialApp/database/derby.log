@@ -1,0 +1,65 @@
+Mon Apr 18 14:52:36 NZST 2016 : Apache Derby Network Server - 10.10.2.0 - (1582446) started and ready to accept connections on port 1527
+----------------------------------------------------------------
+Mon Apr 18 14:52:36 NZST 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance a816c00e-0154-2748-b1a8-000056827765 
+on database directory /Users/wilsonjoe/Documents/SocialApp/SocialApp/database/SocialApp with class loader sun.misc.Launcher$AppClassLoader@266474c2 
+Loaded from file:/Applications/NetBeans/glassfish-4.1.1/javadb/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_65-b17
+user.dir=/Applications/NetBeans/glassfish-4.1.1/javadb
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.11.4
+derby.system.home=/Users/wilsonjoe/Documents/SocialApp/SocialApp/database
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Apr 18 14:52:37 NZST 2016:
+Shutting down instance a816c00e-0154-2748-b1a8-000056827765 on database directory /Users/wilsonjoe/Documents/SocialApp/SocialApp/database/SocialApp with class loader sun.misc.Launcher$AppClassLoader@266474c2 
+Mon Apr 18 14:52:37 NZST 2016 Thread[DRDAConnThread_3,5,main] (DATABASE = SocialApp), (DRDAID = {2}), Database 'SocialApp' shutdown.
+----------------------------------------------------------------
+Mon Apr 18 14:52:46 NZST 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance 560740aa-0154-2748-b1a8-000056827765 
+on database directory /Users/wilsonjoe/Documents/SocialApp/SocialApp/database/SocialApp with class loader sun.misc.Launcher$AppClassLoader@266474c2 
+Loaded from file:/Applications/NetBeans/glassfish-4.1.1/javadb/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_65-b17
+user.dir=/Applications/NetBeans/glassfish-4.1.1/javadb
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.11.4
+derby.system.home=/Users/wilsonjoe/Documents/SocialApp/SocialApp/database
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Apr 18 15:27:37 NZST 2016:
+Shutting down instance 560740aa-0154-2748-b1a8-000056827765 on database directory /Users/wilsonjoe/Documents/SocialApp/SocialApp/database/SocialApp with class loader sun.misc.Launcher$AppClassLoader@266474c2 
+Mon Apr 18 15:27:37 NZST 2016 Thread[DRDAConnThread_3,5,main] (DATABASE = SocialApp), (DRDAID = {4}), Database 'SocialApp' shutdown.
+----------------------------------------------------------------
+Mon Apr 18 15:27:58 NZST 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance 3ebfc1a6-0154-2748-b1a8-000056827765 
+on database directory /Users/wilsonjoe/Documents/SocialApp/SocialApp/database/socialapp with class loader sun.misc.Launcher$AppClassLoader@266474c2 
+Loaded from file:/Applications/NetBeans/glassfish-4.1.1/javadb/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_65-b17
+user.dir=/Applications/NetBeans/glassfish-4.1.1/javadb
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.11.4
+derby.system.home=/Users/wilsonjoe/Documents/SocialApp/SocialApp/database
+Database Class Loader started - derby.database.classpath=''
+----------------------------------------------------------------
+Mon Apr 18 15:27:58 NZST 2016:
+Shutting down instance 3ebfc1a6-0154-2748-b1a8-000056827765 on database directory /Users/wilsonjoe/Documents/SocialApp/SocialApp/database/socialapp with class loader sun.misc.Launcher$AppClassLoader@266474c2 
+Mon Apr 18 15:27:58 NZST 2016 Thread[DRDAConnThread_4,5,main] (DATABASE = socialapp), (DRDAID = {6}), Database 'socialapp' shutdown.
+----------------------------------------------------------------
+Mon Apr 18 15:28:03 NZST 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.2.0 - (1582446): instance 2ad84242-0154-2748-b1a8-000056827765 
+on database directory /Users/wilsonjoe/Documents/SocialApp/SocialApp/database/socialapp with class loader sun.misc.Launcher$AppClassLoader@266474c2 
+Loaded from file:/Applications/NetBeans/glassfish-4.1.1/javadb/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_65-b17
+user.dir=/Applications/NetBeans/glassfish-4.1.1/javadb
+os.name=Mac OS X
+os.arch=x86_64
+os.version=10.11.4
+derby.system.home=/Users/wilsonjoe/Documents/SocialApp/SocialApp/database
+Database Class Loader started - derby.database.classpath=''
